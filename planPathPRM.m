@@ -42,6 +42,7 @@ TrajectoryY = [TrajectoryY, gP(2)];
 
 %plot the path
 subplot(1,3,3)
+title("Trajectory")
 xlim([-3,3]);
 ylim([-3,3]);
 line(TrajectoryX, TrajectoryY)
